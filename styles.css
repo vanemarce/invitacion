@@ -1,9 +1,56 @@
-/* Integración de la fuente Adelia */
+/* Integración de las fuentes Adelia, Garet, Callygraphy, Caroline y Daylove */
 @font-face {
     font-family: 'Adelia';
     src: url('Adelia.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Garet';
+    src: url('Garet.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Callygraphy';
+    src: url('The Yoshi.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Caroline';
+    src: url('Caroline.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Daylove';
+    src: url('daylove.ttf') format('truetype');
+}
+
+/* Aplicar la fuente Caroline a los títulos h3 */
+h3 {
+    font-family: 'Caroline', sans-serif;
+    color: #6b4226;
+    /* Color de los títulos */
+    margin: 15px 0;
+    /* Margen superior e inferior */
+    font-size: 3.5rem;
+    /* Aumenta el tamaño de fuente aquí */
+}
+
+.icono {
+    font-size: 3.5rem;
+    /* Tamaño de íconos consistente */
+    color: #d48c60;
+    margin-bottom: 100px;
+}
+
+.tenida-texto {
+
+    /* Cambiar a Garet para el texto Tenida elegante */
+    color: #6b4226;
+    font-size: 3.5rem;
+    /* Igual al tamaño de h3 */
+    margin-top: 20px;
+    /* Ajusta el margen superior para que coincida con los otros elementos */
+}
 
 .and {
     font-family: 'Adelia', cursive;
@@ -14,9 +61,15 @@
 }
 
 /* Estilo base */
-body {
-    font-family: 'Georgia', serif;
+p,
+button,
+.invitation-text {
+    font-family: 'Garet', sans-serif;
+    /* Estilo base para el texto */
     color: #333;
+}
+
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -30,19 +83,21 @@ body {
     padding: 40px 0;
 }
 
+.thank-you-text {
+    font-family: 'Callygraphy', cursive;
+    /* Usar Callygraphy para el texto de agradecimiento */
+    font-size: 2rem;
+    color: #6b4226;
+    margin-top: 50px;
+}
+
 /* Estilo para los nombres de la pareja */
 .names h1 {
     font-family: 'Adelia', cursive;
+    /* Usar Adelia para los nombres */
     font-size: 3rem;
     color: #6b4226;
     margin: 0;
-}
-
-.names h2 {
-    font-family: 'Georgia', serif;
-    font-size: 1.5rem;
-    color: #6b4226;
-    margin: 10px 0;
 }
 
 .container {
@@ -52,16 +107,11 @@ body {
 }
 
 h1 {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Daylove', cursive;
+    /* Usar Daylove para el título principal */
     font-size: 2.5rem;
     color: #d48c60;
     margin-bottom: 20px;
-}
-
-h2,
-h3 {
-    color: #6b4226;
-    margin: 15px 0;
 }
 
 .timer,
@@ -70,71 +120,125 @@ h3 {
     text-align: center;
 }
 
+/* Estilo para el temporizador */
+#countdown {
+    font-family: 'Garet', sans-serif;
+    /* Aplicar Garet a todo el temporizador */
+    font-size: 1.5rem;
+    /* Tamaño de fuente para el temporizador */
+    color: #d48c60;
+    /* Color del temporizador */
+}
+
+/* Aplicar la fuente Garet al texto de fecha */
+.fecha {
+    font-family: 'Garet', sans-serif;
+    /* Establece Garet para el texto "11 De Enero 2025" */
+    font-size: 2rem;
+    /* Tamaño de fuente para el texto de fecha */
+    color: #6b4226;
+    /* Color de la fecha */
+    margin-top: 20px;
+    /* Margen superior para separar del contenido anterior */
+}
+
 /* Botones */
 button {
     background-color: #d48c60;
+    /* Color de fondo de los botones */
     color: #fff;
+    /* Color de texto de los botones */
     border: none;
     padding: 12px 20px;
+    /* Padding de los botones */
     font-size: 1rem;
+    /* Tamaño de fuente de los botones */
     cursor: pointer;
     border-radius: 5px;
+    /* Bordes redondeados */
     transition: background-color 0.3s ease;
+    /* Transición suave en hover */
 }
 
 button:hover {
     background-color: #b5694d;
+    /* Color en hover */
 }
 
-/* Estilo del modal */
 .modal {
     display: none;
+    /* Ocultar modal por defecto */
     position: fixed;
+    /* Posición fija */
     top: 0;
     left: 0;
     width: 100%;
+    /* Ancho completo */
     height: 100%;
+    /* Alto completo */
     background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
     justify-content: center;
+    /* Centrar contenido */
     align-items: center;
+    /* Centrar verticalmente */
 }
 
 .modal-content {
     background-color: white;
+    /* Fondo blanco para modal */
     padding: 20px;
     border-radius: 10px;
+    /* Bordes redondeados */
     max-width: 500px;
+    /* Ancho máximo */
     margin: auto;
+    /* Centrar */
 }
 
 .close {
     float: right;
+    /* Alinear a la derecha */
     font-size: 24px;
+    /* Tamaño del botón cerrar */
     cursor: pointer;
+    /* Cursor pointer para indicar interactividad */
     color: #d48c60;
+    /* Color del botón cerrar */
 }
 
 .close:hover {
     color: #b5694d;
+    /* Color en hover */
 }
 
-/* Temporizador */
 #countdown span {
+    font-family: 'Garet', sans-serif;
+    /* Aplicar Garet a cada parte del temporizador */
     font-size: 1.5rem;
+    /* Tamaño de fuente para el temporizador */
     font-weight: bold;
+    /* Negrita */
     color: #d48c60;
+    /* Color del temporizador */
 }
 
 .invitation-text {
-    font-family: 'Georgia', serif;
     font-size: 1.2rem;
+    /* Tamaño de texto de invitación */
     color: #6b4226;
+    /* Color de texto */
     margin: 0 auto;
+    /* Centrar */
     max-width: 600px;
+    /* Ancho máximo */
 }
 
 .icono {
     font-size: 2.5rem;
+    /* Tamaño de íconos */
     color: #d48c60;
+    /* Color de íconos */
     margin-bottom: 10px;
+    /* Espacio inferior */
 }
