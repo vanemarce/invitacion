@@ -25,16 +25,18 @@
         <!-- Contenedor principal -->
         <div class="container">
             <h1 style="margin-top: 350px;">¡Nos Casamos!</h1>
-            <!-- Música de fondo -->
-            <button onclick="document.getElementById('backgroundMusic').play()">Reproducir Música</button>
-            <audio id="backgroundMusic" loop>
-                <source src="one.mp3" type="audio/mpeg">
-                Tu navegador no soporta la reproducción de audio.
-            </audio>
 
             <!-- Texto de invitación -->
             <p class="invitation-text" style="margin-top: 20px;">Con amor y alegría, te invitamos a ser testigo de
                 nuestra unión y a compartir este día tan especial junto a nosotros.</p>
+
+            <!-- Música de fondo -->
+            <button class="music-button" onclick="document.getElementById('backgroundMusic').play()">Reproducir
+                Música</button>
+            <audio id="backgroundMusic" loop>
+                <source src="one.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
 
             <!-- Temporizador -->
             <div class="timer" style="margin-top: 200px;">
