@@ -35,6 +35,11 @@ h3 {
     /* Aumenta el tamaño de fuente aquí */
 }
 
+.music-button {
+    margin-top: 50px;
+    /* Margen superior de 50 píxeles */
+}
+
 .icono {
     font-size: 3.5rem;
     /* Tamaño de íconos consistente */
