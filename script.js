@@ -34,9 +34,7 @@ function cerrarDonaciones() {
 // Confirmación de asistencia en WhatsApp
 function confirmarAsistencia() {
     const mensaje = ` 
-    Tu presencia es un regalo invaluable para nosotros en este día tan especial.
-    Te pedimos que nos confirmes tu asistencia antes del [10 de diciembre del 2024], para compartir juntos esta celebración única.
-    ¡Estamos ansiosos por compartir este día inolvidable contigo!
+    Confirmo mi asistencia a la boda. Muchas gracias por la invitación.
     `;
     window.location.href = `https://wa.me/+595992452041?text=${encodeURIComponent(mensaje)}`;
 }
