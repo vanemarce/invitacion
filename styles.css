@@ -48,6 +48,22 @@ h3 {
     /* Margen superior de 50 píxeles */
 }
 
+.corintios {
+    font-size: 1.5rem;
+}
+
+.enero {
+    font-size: 0.9rem;
+}
+
+.inmaculada {
+    font-size: 1.1rem;
+}
+
+.caza {
+    font-size: 1.1rem;
+}
+
 .icono {
     font-size: 3.5rem;
     /* Tamaño de íconos consistente */
@@ -78,13 +94,21 @@ h3 {
 
 /* Estilo base */
 p,
-button,
 .invitation-text {
     font-family: 'Garet', sans-serif;
     font-weight: bold;
     /* Negrita */
-    color: #6b4226;
+    color: #373737;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    font-family: 'Garet', sans-serif;
+    font-weight: bold;
+    /* Negrita */
+    color: #7f4ca5;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 body {
@@ -105,7 +129,7 @@ body {
     font-family: 'Callygraphy', cursive;
     /* Usar Callygraphy para el texto de agradecimiento */
     font-size: 2rem;
-    color: #6b4226;
+    color: #7f4ca5;
     margin-top: 50px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -140,6 +164,7 @@ h1 {
 .section {
     margin: 20px 0;
     text-align: center;
+    color: #7f4ca5;
 }
 
 /* Estilo para el temporizador */
@@ -148,8 +173,7 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
     /* Negrita */
-    color: #d48c60;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #000000 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Aplicar la fuente Garet al texto de fecha */
@@ -158,14 +182,14 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     /* Negrita */
-    color: #6b4226;
+    color: #7f4ca5;
     margin-top: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Botones */
 button {
-    background-color: #424632;
+    background-color: #7f4ca5;
     color: #fff;
     border: none;
     padding: 12px 20px;
@@ -219,12 +243,12 @@ button:hover {
     font-size: 1.5rem;
     font-weight: bold;
     /* Negrita */
-    color: #d48c60;
+    color: #7f4ca5;
 }
 
 .invitation-text {
     font-size: 1.2rem;
-    color: #6b4226;
+    color: #373737;
     margin: 0 auto;
     max-width: 600px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
