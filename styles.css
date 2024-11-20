@@ -87,7 +87,7 @@ h3 {
 .and {
     font-family: 'Adelia', cursive;
     font-size: 3rem;
-    color: #6b4226;
+    color: #7f4ca5;
     margin: 0 15px;
     display: inline-block;
 }
@@ -139,7 +139,7 @@ body {
     font-family: 'Adelia', cursive;
     /* Usar Adelia para los nombres */
     font-size: 3rem;
-    color: #6b4226;
+    color: #7f4ca5;
     margin: 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -155,7 +155,7 @@ h1 {
     font-family: 'Daylove', cursive;
     /* Usar Daylove para el título principal */
     font-size: 2.5rem;
-    color: #bec157;
+    color: #7f4ca5;
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -258,7 +258,7 @@ button:hover {
 
 .icono {
     font-size: 2.5rem;
-    color: #bec157;
+    color: #393939;
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
