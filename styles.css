@@ -33,7 +33,7 @@
 /* Aplicar la fuente Caroline a los títulos h3 */
 h3 {
     font-family: 'Caroline', sans-serif;
-    color: #8d8b55;
+    color: #7f4ca5;
     /* Color de los títulos */
     margin: 15px 0;
     /* Margen superior e inferior */
@@ -77,8 +77,7 @@ h3 {
     /* Cambiar a Garet */
     font-weight: bold;
     /* Negrita */
-    color: #8d8b55;
-    font-size: 3.5rem;
+    color: #7f4ca5 font-size: 3.5rem;
     /* Igual al tamaño de h3 */
     margin-top: 20px;
     /* Ajusta el margen superior para que coincida con los otros elementos */
