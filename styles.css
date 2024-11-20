@@ -170,6 +170,7 @@ h1 {
 /* Estilo para el temporizador */
 #countdown {
     font-family: 'Garet', sans-serif;
+    letter-spacing: 2px;
     font-size: 1.5rem;
     font-weight: bold;
     /* Negrita */
@@ -179,6 +180,7 @@ h1 {
 /* Aplicar la fuente Garet al texto de fecha */
 .fecha {
     font-family: 'Garet', sans-serif;
+    letter-spacing: 5px;
     font-size: 2rem;
     font-weight: bold;
     /* Negrita */
