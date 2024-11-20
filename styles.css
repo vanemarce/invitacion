@@ -5,8 +5,14 @@
 }
 
 @font-face {
+    font-family: 'Bastaman';
+    src: url('Bastaman.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Garet';
     src: url('Garet.ttf') format('truetype');
+
 }
 
 @font-face {
@@ -27,12 +33,14 @@
 /* Aplicar la fuente Caroline a los títulos h3 */
 h3 {
     font-family: 'Caroline', sans-serif;
-    color: #6b4226;
+    color: #8d8b55;
     /* Color de los títulos */
     margin: 15px 0;
     /* Margen superior e inferior */
     font-size: 3.5rem;
     /* Aumenta el tamaño de fuente aquí */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    /* Sombra del texto */
 }
 
 .music-button {
@@ -43,14 +51,17 @@ h3 {
 .icono {
     font-size: 3.5rem;
     /* Tamaño de íconos consistente */
-    color: #d48c60;
+    color: #bec157;
     margin-bottom: 100px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .tenida-texto {
-
-    /* Cambiar a Garet para el texto Tenida elegante */
-    color: #6b4226;
+    font-family: 'Caroline', sans-serif;
+    /* Cambiar a Garet */
+    font-weight: bold;
+    /* Negrita */
+    color: #8d8b55;
     font-size: 3.5rem;
     /* Igual al tamaño de h3 */
     margin-top: 20px;
@@ -70,8 +81,10 @@ p,
 button,
 .invitation-text {
     font-family: 'Garet', sans-serif;
-    /* Estilo base para el texto */
-    color: #333;
+    font-weight: bold;
+    /* Negrita */
+    color: #6b4226;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -94,6 +107,7 @@ body {
     font-size: 2rem;
     color: #6b4226;
     margin-top: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilo para los nombres de la pareja */
@@ -103,20 +117,23 @@ body {
     font-size: 3rem;
     color: #6b4226;
     margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    color: #bec157;
 }
 
 h1 {
     font-family: 'Daylove', cursive;
     /* Usar Daylove para el título principal */
     font-size: 2.5rem;
-    color: #d48c60;
+    color: #bec157;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .timer,
@@ -128,122 +145,93 @@ h1 {
 /* Estilo para el temporizador */
 #countdown {
     font-family: 'Garet', sans-serif;
-    /* Aplicar Garet a todo el temporizador */
     font-size: 1.5rem;
-    /* Tamaño de fuente para el temporizador */
+    font-weight: bold;
+    /* Negrita */
     color: #d48c60;
-    /* Color del temporizador */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Aplicar la fuente Garet al texto de fecha */
 .fecha {
     font-family: 'Garet', sans-serif;
-    /* Establece Garet para el texto "11 De Enero 2025" */
     font-size: 2rem;
-    /* Tamaño de fuente para el texto de fecha */
+    font-weight: bold;
+    /* Negrita */
     color: #6b4226;
-    /* Color de la fecha */
     margin-top: 20px;
-    /* Margen superior para separar del contenido anterior */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Botones */
 button {
-    background-color: #d48c60;
-    /* Color de fondo de los botones */
+    background-color: #424632;
     color: #fff;
-    /* Color de texto de los botones */
     border: none;
     padding: 12px 20px;
-    /* Padding de los botones */
+    font-family: 'Garet', sans-serif;
+    font-weight: bold;
+    /* Negrita */
     font-size: 1rem;
-    /* Tamaño de fuente de los botones */
     cursor: pointer;
     border-radius: 5px;
-    /* Bordes redondeados */
     transition: background-color 0.3s ease;
-    /* Transición suave en hover */
 }
 
 button:hover {
-    background-color: #b5694d;
-    /* Color en hover */
+    background-color: #7f4ca5;
 }
 
 .modal {
     display: none;
-    /* Ocultar modal por defecto */
     position: fixed;
-    /* Posición fija */
     top: 0;
     left: 0;
     width: 100%;
-    /* Ancho completo */
     height: 100%;
-    /* Alto completo */
     background-color: rgba(0, 0, 0, 0.5);
-    /* Fondo semi-transparente */
     justify-content: center;
-    /* Centrar contenido */
     align-items: center;
-    /* Centrar verticalmente */
 }
 
 .modal-content {
     background-color: white;
-    /* Fondo blanco para modal */
     padding: 20px;
     border-radius: 10px;
-    /* Bordes redondeados */
     max-width: 500px;
-    /* Ancho máximo */
     margin: auto;
-    /* Centrar */
 }
 
 .close {
     float: right;
-    /* Alinear a la derecha */
     font-size: 24px;
-    /* Tamaño del botón cerrar */
     cursor: pointer;
-    /* Cursor pointer para indicar interactividad */
-    color: #d48c60;
-    /* Color del botón cerrar */
+    color: #bec157;
 }
 
 .close:hover {
-    color: #b5694d;
-    /* Color en hover */
+    color: #bec157;
 }
 
 #countdown span {
     font-family: 'Garet', sans-serif;
-    /* Aplicar Garet a cada parte del temporizador */
     font-size: 1.5rem;
-    /* Tamaño de fuente para el temporizador */
     font-weight: bold;
     /* Negrita */
     color: #d48c60;
-    /* Color del temporizador */
 }
 
 .invitation-text {
     font-size: 1.2rem;
-    /* Tamaño de texto de invitación */
     color: #6b4226;
-    /* Color de texto */
     margin: 0 auto;
-    /* Centrar */
     max-width: 600px;
-    /* Ancho máximo */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .icono {
     font-size: 2.5rem;
-    /* Tamaño de íconos */
-    color: #d48c60;
-    /* Color de íconos */
+    color: #bec157;
     margin-bottom: 10px;
-    /* Espacio inferior */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
